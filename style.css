@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+style{
+    width: 100vh;
+}
+.main{
+  box-sizing: border-box;  
+}
+.logo{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(252, 154, 8);
+    margin-left: 35px;
+    margin-top: 15px ;
+    font-weight: bold;
+}
+.navber{
+    display: flex;
+    float: left;
+    cursor: pointer;
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    margin-left: 92px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    float: left;
+    cursor: pointer;
+}
+ul a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+.searchbox{
+    width: 330px;
+    margin-top: 40px;
+    margin-left: 450px;
+    float: left;
+}
+.srch{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 210px;
+    height: 40px;
+    border: 1px solid rgb(230, 127, 10);
+    text-align: center;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom-left-radius:  5px;
+    float: left;
+    outline: none;
+}
+.btn1{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(230, 127, 10);
+    font-size: 15px;
+    border: 2px solid rgb(230, 127, 10);
+    border-bottom-right-radius:  3px;
+    border-bottom-left-radius:  3px;
+    cursor: pointer;
+}
+.btn1:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.sec1{
+    width: 1200px;
+    height: auto;
+    color: #fff;
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 40px ;
+    padding-top: 250px;
+}
+ .sec1 h1{
+    font-size: 75px;
+    color: #fff;
+    font-weight: bold;
+ }
+ 
+ .sec1 span{
+    color: rgb(252, 154, 8);
+    font-size: 65px;
+ }
+.text p{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn2{
+    width: 170px;
+    height: 40px;
+    background-color: rgb(252, 154, 8);
+    border: 0 solid rgb(252, 154, 8);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.btn2 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 21px;
+}
+.btn2 :hover{
+    transition: all ease-in 0.5s;
+    color: rgb(189, 30, 30);
+}
+
+
+.from{
+    width: 290px;
+    height: 400px;
+    background-color: rgb(12, 11, 11);
+    position: absolute;
+    top: 200px;
+    left: 1120px;
+    border-radius: 15px;
+    padding: 25px;
+}
+.from h2{
+    width: 260px;
+    height: 20px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(245, 160, 3);
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 10px;
+    
+}
+
+.from input{
+    width: 260px;
+    height: 30px;
+    border: 1px solid rgb(245, 160, 3);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    padding-top: 10px;
+    margin-top: 15px;
+    color: #fff;
+
+}
+.btn2{
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    color: #3a301d;
+    cursor: pointer;
+
+}
+.btn2:hover{
+    background-color: #fff;
+    transition: all ease-in .5s;
+    color: rgb(201, 187, 187);
+}
+
+.from p{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(221, 235, 247);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.from a{
+   
+    text-decoration: none;
+    text-align: center;
+    margin-left: 100px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span.hre{
+    font-size: 19px;
+}
+
